@@ -1,2 +1,3 @@
 roslaunch lingao_bringup robot.launch #底盤
+roslaunch mr_voice voice.launch
 
