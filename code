@@ -1,3 +1,5 @@
 roslaunch lingao_bringup robot.launch #底盤
 roslaunch mr_voice voice.launch #mr_voice_open
 roslaunch open_manipulator_controller open_manipulator_controller.launch usb_port:=/dev/arm #啟動機器臂
+roslaunch astra_camera astra.launch
+roslaunch robot_vision_openvino yolo_ros.launch
