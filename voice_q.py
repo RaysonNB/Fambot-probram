@@ -50,6 +50,8 @@ if __name__ == "__main__":
     rospy.init_node("speak_node")
     rospy.loginfo("speak_node started!")
     data = load_data("wh.txt")
+
+    aaaa=""
     rospy.Subscriber("/voice/text", Voice, callback_voice)
     publisher_speaker = rospy.Publisher("/speaker/say", String, queue_size=10)
     s=""
@@ -58,6 +60,11 @@ if __name__ == "__main__":
         if len(s)== 0:
             continue
         else:
-            say(answer(s, data))
-            rospy.loginfo(s)
-            s=""
+            aaaa=answer(s, data)
+            if aaaa != "":
+                say(aaaa)
+                rospy.loginfo(s)
+            else:
+                say("please say it again")
+            s = ""
+                
