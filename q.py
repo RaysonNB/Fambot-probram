@@ -18,7 +18,7 @@ how, How, How long, long
 What's the name of the bear cub exported from Canada to the London Zoo in 1915?
 The bear cub was named Winnipeg. It inspired the stories of Winnie-the-Pooh.
 the name, zoo, Zoo
-    
+
 Where was the Blackberry Smartphone developed?
 It was developed in Ontario, at Research In Motion's Waterloo offices.
 blackberry, smartphone, developed, develop
@@ -27,16 +27,6 @@ What is the world's largest coin?
 The Big Nickel in Sudbury, Ontario. It is nine meters in diameter.
 largest
 coin, corn
-
-#In what year was Canada invaded by the USA for the first time?
-#The first time that the USA invaded Canada was in 17 75.
-#usa
-#first
-
-#What year was Canada invaded by the USA for the second time?
-#The USA invaded Canada a second time in 18 12.
-#usa
-#second
 
 What country holds the record for the most gold medals at the Winter Olympics?
 Canada does! With 14 Golds at the 2010 Vancouver Winter Olympics.
@@ -229,7 +219,7 @@ It depends on my DNA, so I cannot explain it to you.
 gay
 
 What’s the Color of Mirror?
-Humans can differentiate 10 million different colors, but it’s hard to imagine the mirror is not white or silver.
+Humans can differentiate 10 million different colors, but it is hard to imagine the mirror is not white or silver.
 Color, color
 Mirror, mirror
 
