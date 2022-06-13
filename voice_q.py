@@ -12,21 +12,23 @@ def answer(text, aaa):
     for d in aaa:
         res_AND = True
         res_Q = False
+        action_prase=""
         for keys in d["K"]:
             res_OR = False
             for key in keys:
                 if key[0] == "!":
                     res_OR = res_OR or key[1:] not in text
                 if key[0] == "*":
-                    res_Q = True:
+                    res_Q = True
+                    action_prase= key
                 else:
                     res_OR = res_OR or key in text
             res_AND = res_OR and res_AND
         if res_Q:
-            return "action"
+            return "action", action_prase
         else:
-            return d["A"]
-    return ""
+            return d["A"],""
+    return "",""
 
 
 def load_data(f_n):
@@ -65,8 +67,11 @@ if __name__ == "__main__":
         if len(s)== 0:
             continue
         else:
-            aaaa=answer(s, data)
-            if aaaa != "":
+            aaaa,bbbb=answer(s, data)
+            if aaaa=="action":
+                if bbbb == "":
+                    
+            elif aaaa != "":
                 say(aaaa)
                 rospy.loginfo(s)
             else:
