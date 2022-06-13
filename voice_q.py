@@ -69,8 +69,8 @@ if __name__ == "__main__":
         else:
             aaaa,bbbb=answer(s, data)
             if aaaa=="action":
-                if bbbb == "":
-                    
+                if bbbb == "": #action name?
+                    #action code
             elif aaaa != "":
                 say(aaaa)
                 rospy.loginfo(s)
