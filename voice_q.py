@@ -11,15 +11,20 @@ def callback_voice(msg):
 def answer(text, aaa):
     for d in aaa:
         res_AND = True
+        res_Q = False
         for keys in d["K"]:
             res_OR = False
             for key in keys:
                 if key[0] == "!":
                     res_OR = res_OR or key[1:] not in text
+                if key[0] == "*":
+                    res_Q = True:
                 else:
                     res_OR = res_OR or key in text
             res_AND = res_OR and res_AND
-        if res_AND:
+        if res_Q:
+            return "action"
+        else:
             return d["A"]
     return ""
 
