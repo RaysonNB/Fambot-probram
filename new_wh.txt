@@ -1,0 +1,67 @@
+
+Can you help me to get the computer
+*open arm
+computer, help ,door
+
+Hey robot, what dishes should we make for tonight’s feast?
+I suggest making a hot pot tonight because I heard that your friends love it very much.
+dishes, feasts, dish, feast
+tonight, night
+
+Can you help me to see who is outside the door
+Okay, Dear master, Rayson is outside the door, may I go to open the door?
+Can, can, see
+help, helps, helped
+outside, door
+
+Yes, please help me to open the doorr
+*open_door
+yes, yes, door
+open
+
+Hello robot
+Hello Rayson, my master is preparing for the dinner, let me take you to the living room.Do you want a cup of milk tea or water?
+hello, Hello
+robot, robots
+
+Yes, please, I want a bottle of water.
+Sure
+bottle, water
+
+Can you help me to see who is outside the door, thank you
+Okay, Master, there is a boy outside the door, should we let him come in？
+thank, thanks
+who
+
+Yes, he is one of my friend Chester, let him come in.
+Okay,,,,Welcome chester, how can I help you
+my, friend, friends
+come
+
+Hey, robot, may I know where is your master?
+My master is preparing dinner in the kitchen. If you need any help or serving, you can ask me.Do you want a cup of milk tea or water?
+where, Where
+master
+
+Yes, please, I want a cup of milk tea.
+*get milk tea
+want
+cup, milk, tea
+
+Thank you for your great serving!
+You are welcome, I am glad to help you.
+serving
+thank, Thank, thanks
+serving, servings
+
+Can you help me to see who is outside the door, I think he is not my friend
+Master, should I allow this person to go in?
+help, who
+not
+friend
+
+I don’t know this person, let her go away please.
+okay,, hey the person outside the door pls leave, we don't know who you are
+person
+don't
+know
